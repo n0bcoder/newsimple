@@ -13,7 +13,7 @@ nonimal1 = '0.01'
 dead1 = '0'
 #taxes
 buytax = 30
-selltax = 0
+selltax = 50
 
 
 #network change one of these to False then choose one
