@@ -32,7 +32,7 @@ class TXN():
 
     def setup_swapper(self):
         #honeypot checker and tax
-        swapper_address = Web3.toChecksumAddress("0x06Ebf173418591927E645937536eb54a6D4060Cc") 
+        swapper_address = Web3.toChecksumAddress("0x18be7f977Ec1217B71D0C134FBCFF36Ea4366fCD") 
         with open("./BSC_Swapper.json") as f:
             contract_abi = json.load(f)
         swapper = self.w3.eth.contract(address=swapper_address, abi=contract_abi)
